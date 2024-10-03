@@ -1,0 +1,24 @@
+.conteiner-box{
+    width: calc(100vh - 350px);
+    height: 100vh;
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 10px;
+    
+    
+}
+.conteiner-main{
+    width: 910px;
+    height: 100vh;
+    border-radius: 10px;
+    border: 2px solid;
+    
+    margin: 10px;
+    
+}
+.conteiner-perfil{
+ display: flex;  
+    
+    
+}
+

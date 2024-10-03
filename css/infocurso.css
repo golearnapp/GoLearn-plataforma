@@ -1,0 +1,42 @@
+
+
+.container-info{
+    display: grid;
+    border: 2px solid;
+    border-radius: 8px;
+    justify-content: space-between;
+    width: 100%;
+}
+.curso{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding-top: 10px;
+    justify-content: flex-end;
+    margin: 10px;
+}
+.container-cir{
+    justify-self: center;
+    text-align: center;
+}
+
+
+.container-circulo{
+    justify-content: center;
+    background-color: #231F20;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 50%;    
+    height: 225px;
+    width: 225px;
+    text-align: center;
+    
+}
+.container-circulo img{
+    
+    color: #03B32E;
+    font-size: 200px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -60px;
+}

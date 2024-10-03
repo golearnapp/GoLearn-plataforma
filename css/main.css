@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    height: calc(100vh - 80px); /* Ajuste conforme o tamanho do header */
+    overflow-x: none; 
+    
+}
+
+main {
+    flex-grow: 2;
+    padding: 100px;
+    width: calc(100% - 300px);   
+    transition: margin-left 0.3s;
+    height: 100vh;    
+    padding-top: 100px;
+    overflow-y: hidden;
+    overflow-x: none;   
+}
+
+aside.collapsed + main {
+    margin-left: 220px;
+    
+}
+
+
+.secao{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    margin: 10px;    
+    border: 2px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box button{
+    font-size: 3rem;
+    border-radius: 20px;
+    background-color: #03b32f69;
+    cursor: pointer;
+    border: 5px solid white;
+}
+
+
+

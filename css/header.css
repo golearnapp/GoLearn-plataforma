@@ -1,0 +1,72 @@
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px 23px 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu-toggle {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.logo-warpper {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.logo {
+    font-size: 48px;
+    font-weight: 700;
+    font-style: normal;
+    margin-right: 10rem;
+}
+
+.go {
+    color: #03B32E;
+    font-size: 48px;
+    text-decoration: none;
+}
+
+.container-warpper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.container-input {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-radius: 50px;
+    width: 823px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-warpper {
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+
+.input-warpper i {
+    color: #777;
+}
+
+.input-warpper input {
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    font-size: 20px;
+    width: 98%;    
+}
