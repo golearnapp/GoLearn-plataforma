@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,28 +8,17 @@
     <link rel="stylesheet" href="/css/index.css">
     <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js'></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function() 
-        {
-            var calendarEl = document.getElementById('calendar');
 
-            var calendar = new FullCalendar.Calendar(calendarEl, 
-            {
-                timeZone: 'UTC',
-                initialView: 'timeGridWeek',
-                headerToolbar: 
-                {
-                    left: 'prev,next today',
-                    center: 'title',
-                    right: 'timeGridWeek,timeGridDay'
-                },
-                events: 'https://fullcalendar.io/api/demo-feeds/events.json'
-            });
-            calendar.render();
+        document.addEventListener('DOMContentLoaded', function() {
+          var calendarEl = document.getElementById('calendar');
+          var calendar = new FullCalendar.Calendar(calendarEl, {
+            initialView: 'dayGridMonth'
+          });
+          calendar.render();
         });
-    </script>
-
+  
+      </script>
 </head>
-
 <body>
     <header>
         <div class="menu-toggle" onclick="toggleSidebar()">
@@ -107,6 +95,7 @@
             </nav>
         </aside>
         <main>
+            
             <div id='calendar'></div>
         </main>
     </div>
@@ -114,5 +103,4 @@
 
     <script src="/javascript/index.js"></script>
 </body>
-
 </html>
