@@ -17,7 +17,7 @@ main {
 }
 
 aside.collapsed + main {
-    margin-left: 220px;
+    margin-left: 200px;
     
 }
 

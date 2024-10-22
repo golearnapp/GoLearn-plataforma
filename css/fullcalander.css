@@ -2,7 +2,7 @@ body
 {
     margin: 40px 10px;
     padding: 0;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    
     font-size: 14px;
 }
 
@@ -12,3 +12,14 @@ body
     max-width: 1100px;
     margin: 0 auto;
 }
+.fc-toolbar {
+    background: #03B32E;
+    border: 2px solid #000; /* Altere a cor e a espessura conforme necessário */
+    border-radius: 5px; /* Para bordas arredondadas, se desejar */
+    padding: 20px; /* Para adicionar espaço interno */
+}
+.fc-col-header-cell-cushion, .fc-daygrid-day-number{
+    text-decoration: none;
+    color: #000;
+}
+
